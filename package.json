@@ -1,0 +1,33 @@
+{
+  "name": "config-fs-utils",
+  "version": "0.1.0",
+  "description": "File system utilities for configuration file management",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "config",
+    "filesystem",
+    "utilities",
+    "backup",
+    "permissions",
+    "mutt",
+    "neomutt"
+  ],
+  "author": "a-lost-social-misfit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-lost-social-misfit/config-fs-utils.git"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "mutt-config-core": "^0.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
